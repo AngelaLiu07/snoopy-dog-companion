@@ -1,0 +1,7 @@
+streamlit
+ollama
+requests
+pillow
+pandas
+chromadb
+pydantic

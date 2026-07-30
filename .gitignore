@@ -1,0 +1,19 @@
+# Virtual Environments & Python Binaries
+lib/
+share/
+pyvenv.cfg
+bin/
+include/
+.venv/
+venv/
+env/
+
+# Mac OS files
+.DS_Store
+
+# Local Vector Database Data
+my_chroma_data/
+
+# Python Cache
+__pycache__/
+*.pyc

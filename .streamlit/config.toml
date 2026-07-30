@@ -1,0 +1,12 @@
+[theme]
+backgroundColor = '#B8A48A'
+secondaryBackgroundColor = '#E3D6C6'
+textColor = '#230f08'
+font='Just Me Again Down Here: https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap'
+baseFontSize = 35
+
+[ui]
+hideTopBar = true
+
+[client]
+toolbarMode = "minimal"
