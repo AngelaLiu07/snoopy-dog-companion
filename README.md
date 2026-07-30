@@ -60,7 +60,7 @@ Phase 1: Vector Embeddings with ChromaDB (Ingest & Vector Pipeline)
     - In the initial engineering phase, I built a local vector retrieval system using ChromaDB:
         -Data Ingestion (ingest.py): Pre-processed local Peanuts images were into structured objects using Pydantic schemas (schemas.py), extracting AI-generated titles and keyword tags.
 
-        -Semantic Search: User inputs were converted into high-dimensional vector embeddings, querying ChromaDB to display the closest matching pre-existing image using Cosine Similarity.
+        - Semantic Search: User inputs were converted into high-dimensional vector embeddings, querying ChromaDB to display the closest matching pre-existing image using Cosine Similarity.
 
 Phase 2: Pivot to On-Demand Generative Multi-Modal Art
     - While the vector pipeline succeeded at semantic retrieval, exact image matching felt static and not personal. I evolved the architecture from retrieving static images to generating custom dynamic scenes on the fly:
